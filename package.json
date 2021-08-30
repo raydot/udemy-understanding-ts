@@ -1,0 +1,31 @@
+{
+  "name": "udemy-understanding-ts",
+  "version": "1.0.0",
+  "description": "Following Maximilian Schwarzmüller's \"Understanding Typescript\" on Udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raydot/udemy-understanding-ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "udemy"
+  ],
+  "author": "Dave Kanter",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/raydot/udemy-understanding-ts/issues"
+  },
+  "homepage": "https://github.com/raydot/udemy-understanding-ts#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "typescript": "^4.4.2"
+  }
+}
