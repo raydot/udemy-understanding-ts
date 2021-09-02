@@ -18,6 +18,10 @@ Deep dive into TS configuration, centered mostly around `tsconfig.json`. Short s
 
 Review of "new" ES6 features and how they relate to TS. Specifically, `let` and `const`, arrow functions, default function parameters, spread operator (`...`), rest parameters, and array & object destructuring.
 
+## Section 5: Classes & Interfaces
+
+Coverages of classes , constructors, public, private, singletons, interfaces. I unfortunately wiped out all of the work I did for this section with a single foolish click of the mouse, so the code that's there for this section is the default from the class and has no notes.
+
 # Notes:
 
 The favicons were probably unnecessary, but were distracting me in the browser.
