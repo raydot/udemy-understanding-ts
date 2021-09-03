@@ -26,6 +26,16 @@ Coverages of classes , constructors, public, private, singletons, interfaces. I 
 
 Interesting coverage of advanced TS types and patterns including type guards, discriminate unions, typecasting, index properties, function overloads, optional chaining, and nullish coalescing.
 
+## Section 7: Generics
+
+Max should write a book, because this was a great explanation of generics. In addition to explaining what generics are, how they're constructed and what they're used for, this section also covers why/how to add constraints, using the `keyof` constraint, working with generic classes, genric utility types, and the difference between generic types and union types.
+
+Links:
+[Typescript Utility types documentation](https://www.typescriptlang.org/docs/handbook/utility-types.html)
+[Typescript Genrics documentation](https://www.typescriptlang.org/docs/handbook/generics.html)
+
+## Section 8: Decorators
+
 # Notes:
 
 The favicons were probably unnecessary, but the error message distracting me in the browser.
