@@ -22,6 +22,16 @@ Review of "new" ES6 features and how they relate to TS. Specifically, `let` and 
 
 Coverages of classes , constructors, public, private, singletons, interfaces. I unfortunately wiped out all of the work I did for this section with a single foolish click of the mouse, so the code that's there for this section is the default from the class and has no notes.
 
+## Section 6: Advanced Types
+
+Interesting coverage of advanced TS types and patterns including type guards, discriminate unions, typecasting, index properties, function overloads, optional chaining, and nullish coalescing.
+
 # Notes:
 
-The favicons were probably unnecessary, but were distracting me in the browser.
+The favicons were probably unnecessary, but the error message distracting me in the browser.
+
+I added this to the HTML page to stop an "exports not defined" error that shows up pretty much at random.
+
+```javascript
+<script>var exports = {};</script>
+```

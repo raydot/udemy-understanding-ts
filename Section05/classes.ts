@@ -126,6 +126,7 @@ const accounting2 = AccountingDepartment.getInstance();
 
 //  Use the Department static method
 const employee1 = Department.createEmployee("Bobo");
+git;
 console.log(employee1, Department.fiscalYear);
 
 accounting.addReport("Oh no, big problem!");

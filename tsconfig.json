@@ -7,9 +7,10 @@
     // "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "skipLibCheck": true
   },
-  "exclude": ["./first-project", "./Section02", "./Section05", "./dist/**/*"]
+  "exclude": ["Section*/**/*", "./dist/**/*"]
 }
 
 // {
