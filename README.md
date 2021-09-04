@@ -32,9 +32,11 @@ Max should write a book, because this was a great explanation of generics. In ad
 
 Links:
 [Typescript Utility types documentation](https://www.typescriptlang.org/docs/handbook/utility-types.html)
-[Typescript Genrics documentation](https://www.typescriptlang.org/docs/handbook/generics.html)
+[Typescript Genrics documentation](https://www.typescriptlang.org/docs/handbook/2/generics.html) (Page liked from course is deprecated, this is the updated page.)
 
 ## Section 8: Decorators
+
+_Mindblowing_ introduction to [TypeScript decorators](https://www.typescriptlang.org/docs/handbook/decorators.html). 🚀 Worth it for just the `Autobind` demonstration alone. Section covers decorators in their general use, decorator factories, how decorators work differently with classes, properties, accessors, methods and parameters, how decorators execute on the JS stack, an example of them being used to override class constructors (wow!), and validation with decorators. The validation with decorators builds a simple version of [Typestack's `class-validator` library](https://github.com/typestack/class-validator), and discusses decorators in the context of both Angular and the [Nest.js server](https://nestjs.com/).
 
 # Notes:
 
@@ -45,3 +47,5 @@ I added this to the HTML page to stop an "exports not defined" error that shows 
 ```javascript
 <script>var exports = {};</script>
 ```
+
+`target` is set to `es6` and `experimentalDecorators` is set to `true` in `tsconfig.json` per the course instructions for Section 8.
