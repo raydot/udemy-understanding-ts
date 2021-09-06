@@ -303,7 +303,7 @@ courseForm.addEventListener("submit", (event) => {
   const createdCourse = new Course(title, price);
 
   if (!validate(createdCourse)) {
-    throw new Error("YOU SUCK!");
+    throw new Error("INPUT ERROR!");
   }
   console.log(createdCourse);
 });
