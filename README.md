@@ -38,6 +38,10 @@ Links:
 
 _Mindblowing_ introduction to [TypeScript decorators](https://www.typescriptlang.org/docs/handbook/decorators.html). 🚀 Worth it for just the `Autobind` demonstration alone. Section covers decorators in their general use, decorator factories, how decorators work differently with classes, properties, accessors, methods and parameters, how decorators execute on the JS stack, an example of them being used to override class constructors (wow!), and validation with decorators. The validation with decorators builds a simple version of [Typestack's `class-validator` library](https://github.com/typestack/class-validator), and discusses decorators in the context of both Angular and the [Nest.js server](https://nestjs.com/).
 
+## Section 9: Practice Time! Let's Build a Drag and Drop Project
+
+A walk through how to build a basic (but not simple!) ~400 line drag and drop project management interface using everything we've learned thus far.
+
 # Notes:
 
 The favicons were probably unnecessary, but the error message distracting me in the browser.
