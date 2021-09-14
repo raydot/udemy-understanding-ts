@@ -15,7 +15,9 @@
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "noUnusedLocals": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "noEmitOnError": true,
+    "strict": true
   },
   // "exclude": ["Section*/**/*", "./dist/**/*"]
   "include": ["src"]

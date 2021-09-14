@@ -65,6 +65,12 @@ There were definitely some issues with the course content having to do with upda
 
 2.  In `webpack.config.prod.js`, `"devtool"` needs to be completely removed, and not simply set to `"none"`.
 
+## Section 12: 3rd Party Libraries & Typescript
+
+- Covers NPM's [@types library](https://www.npmjs.com/~types), which contains type definitions for many JS 3rd party libraries.
+- Shows how to use `declare` to define types that might not otherwise be defined.
+-
+
 # TODO:
 
 ~~The project sections do not revert back to white when something is dropped on them.~~
