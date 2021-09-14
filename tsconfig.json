@@ -1,18 +1,23 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
+    "outFile": "./dist/bundle.js", // concatanate to one JS file
+    "outDir": "dist",
+    //"rootDir": "./src",
+    "removeComments": true,
     "noImplicitAny": true,
     "target": "es6",
-    //"module": "CommonJS",
+    "module": "amd",
     // "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "experimentalDecorators": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "sourceMap": true
   },
-  "exclude": ["Section*/**/*", "./dist/**/*"]
+  // "exclude": ["Section*/**/*", "./dist/**/*"]
+  "include": ["src"]
 }
 
 // {

@@ -42,11 +42,13 @@ _Mindblowing_ introduction to [TypeScript decorators](https://www.typescriptlang
 
 A walk through how to build a basic (but not simple!) ~400 line drag and drop project management interface using everything we've learned thus far.
 
+TODO: The project sections do not revert back to white when something is dropped on them.
+
 # Notes:
 
-The favicons were probably unnecessary, but the error message distracting me in the browser.
+The favicons were probably unnecessary, but the error message was distracting me in the browser.
 
-I added this to the HTML page to stop an "exports not defined" error that shows up pretty much at random.
+I added this to the HTML page to stop an "exports not defined" error that shows up pretty much at random:
 
 ```javascript
 <script>var exports = {};</script>
