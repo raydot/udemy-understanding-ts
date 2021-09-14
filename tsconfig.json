@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "outFile": "./dist/bundle.js", // concatanate to one JS file
+    "target": "es6",
+    "module": "es2015", // aka ES6
+    // "outFile": "./dist/bundle.js", // concatanate to one JS file, not supported in es6
     "outDir": "dist",
     //"rootDir": "./src",
     "removeComments": true,
     "noImplicitAny": true,
-    "target": "es6",
-    "module": "amd",
+
     // "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",

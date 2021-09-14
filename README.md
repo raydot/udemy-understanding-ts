@@ -42,7 +42,13 @@ _Mindblowing_ introduction to [TypeScript decorators](https://www.typescriptlang
 
 A walk through how to build a basic (but not simple!) ~400 line drag and drop project management interface using everything we've learned thus far.
 
-TODO: The project sections do not revert back to white when something is dropped on them.
+## Section 10: Modules
+
+Lots of great stuff here about namespaces and es6 modules, how to use them, how to configure HTML and `tsconfig` to use them, why to use them, best practices, pitfalls, etc.
+
+# TODO:
+
+~~The project sections do not revert back to white when something is dropped on them.~~
 
 # Notes:
 
