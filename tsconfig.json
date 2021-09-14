@@ -3,7 +3,7 @@
     "target": "es6",
     "module": "es2015", // aka ES6
     // "outFile": "./dist/bundle.js", // concatanate to one JS file, not supported in es6
-    "outDir": "dist",
+    "outDir": "./dist",
     //"rootDir": "./src",
     "removeComments": true,
     "noImplicitAny": true,

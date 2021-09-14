@@ -1,4 +1,4 @@
-import { Project, ProjectStatus } from '../models/project.js';
+import { Project, ProjectStatus } from '../models/project';
 
 // Project State Management
 type Listener<T> = (items: T[]) => void;
@@ -54,4 +54,5 @@ export class ProjectState extends State<Project> {
   }
 }
 
+// Only imported once!  Modules know what's up!
 export const projectState = ProjectState.getInstance();

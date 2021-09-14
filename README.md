@@ -42,9 +42,28 @@ _Mindblowing_ introduction to [TypeScript decorators](https://www.typescriptlang
 
 A walk through how to build a basic (but not simple!) ~400 line drag and drop project management interface using everything we've learned thus far.
 
-## Section 10: Modules
+## Section 10: Modules & Namespaces
 
-Lots of great stuff here about namespaces and es6 modules, how to use them, how to configure HTML and `tsconfig` to use them, why to use them, best practices, pitfalls, etc.
+Lots of great stuff here about namespaces and es6 modules, how to use them, how to configure HTML and `tsconfig` to use them, why to use them, best practices, pitfalls, etc. All of the code from Section 9 is broken out into multiple files and passed around using namespaces.
+
+## Section 11: Using Webpack with TypeScript
+
+Pretty good intro to Webpack, but didn't have a whole lot to do with TypeScript. It primarily shows how to take all of the files that were broken out in section 10 and use Webpack to bundle them into one lightening fast file ready to be deployed to your server.
+
+There were definitely some issues with the course content having to do with updates to Webpack since it was written:
+
+1.  `webpack.config.js` needs some edits. Specifically:
+
+- In `output`, `"publicPath"` needs to be set to `"\dist\"` and not `"dist"`.
+- The following section needs to be added to work with `webpack-dev-server`:
+
+```javascript
+  devServer: {
+    static: './',
+  },
+```
+
+2.  In `webpack.config.prod.js`, `"devtool"` needs to be completely removed, and not simply set to `"none"`.
 
 # TODO:
 
