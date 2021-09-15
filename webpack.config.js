@@ -1,4 +1,6 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
+const { DH_NOT_SUITABLE_GENERATOR } = require('constants');
 
 module.exports = {
   mode: 'development',
@@ -24,4 +26,5 @@ module.exports = {
   devServer: {
     static: './',
   },
+  plugins: [new Dotenv()],
 };

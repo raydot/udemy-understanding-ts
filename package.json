@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/raydot/udemy-understanding-ts#readme",
   "devDependencies": {
+    "@types/google.maps": "^3.45.6",
     "@types/lodash": "^4.14.172",
     "clean-webpack-plugin": "^4.0.0",
+    "dotenv-webpack": "^7.0.3",
     "eslint": "^7.32.0",
     "lite-server": "^2.6.1",
     "ts-loader": "^9.2.5",
@@ -35,6 +37,9 @@
     "webpack-dev-server": "^4.2.1"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^1.12.3",
+    "acorn": "^8.5.0",
+    "axios": "^0.21.4",
     "class-transformer": "^0.4.0",
     "class-validator": "^0.13.1",
     "commonjs": "0.0.1",
