@@ -69,6 +69,7 @@ There were definitely some issues with the course content having to do with upda
 
 - Covers NPM's [@types library](https://www.npmjs.com/~types), which contains type definitions for many JS 3rd party libraries.
 - Shows how to use `declare` to define types that might not otherwise be defined.
+- Shows how to convert data from wherever to conform with your created types Typescript types using [Typestack's class-transformer](https://github.com/typestack/class-transformer)
 -
 
 # TODO:
