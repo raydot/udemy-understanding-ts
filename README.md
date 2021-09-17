@@ -1,6 +1,6 @@
 # udemy-understanding-ts
 
-Following Maximilian Schwarzmüller's "Understanding Typescript" on Udemy
+All work files for Maximilian Schwarzmüller's "Understanding Typescript" on Udemy
 
 # Course Content
 
