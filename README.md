@@ -72,6 +72,20 @@ There were definitely some issues with the course content having to do with upda
 - Shows how to convert data from wherever to conform with your created types Typescript types using [Typestack's `class-transformer`](https://github.com/typestack/class-transformer).
 - Delightfully invokes the powerful decorators in [Typestack's `class-validator`](https://github.com/typestack/class-validator).
 
+## Section 13: Time to Practice! Let's Build a Google Maps App!
+
+Covers using the Google Maps API in Typescript, specifically by adding `@types/google.maps` to add TS Types to the API. It's pretty open-ended so a good place to continue to experiment with TS.
+
+### Because Sections 14 and 15 require their own special NPM setups, Section 13 is stored in the root `src` project folder.
+
+## Section 14: React.js & Typescript
+
+Build a simple CRUD app with Typescripty goodness. Also contains a general discussion of React and Typescript, and where to find resources.
+
+## Section 15: Node.js + Express & Typescript
+
+Begins with discussion of how Node does not understand Typescript, but simply treats whatever you pass to it as Javascript without caring about the file extension. Also gives quick introduction to [TSNode](https://typestrong.org/ts-node/) before moving on from it because constantly compiling TS on the server would likely be slow. Which brings us to a custom setup.
+
 # TODO:
 
 ~~The project sections do not revert back to white when something is dropped on them.~~

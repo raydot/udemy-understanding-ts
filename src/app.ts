@@ -38,9 +38,11 @@ function searchAddressHandler(event: Event) {
       }
       loader.load().then(() => {
         const coordinates = new google.maps.LatLng({
-          lat: Number(response.data.results[0].geometry.location.lat),
+          lat: Number(response.data.results[0].geometry.location.lat()),
           lng: Number(response.data.results[0].geometry.location.lng),
         });
+        console.log(coordinates.lat);
+        //const coordinates = response.data.results[0].geometry.location;
         const map = new google.maps.Map(
           document.getElementById('map') as Element,
           {
