@@ -80,11 +80,15 @@ Covers using the Google Maps API in Typescript, specifically by adding `@types/g
 
 ## Section 14: React.js & Typescript
 
-Build a simple CRUD app with Typescripty goodness. Also contains a general discussion of React and Typescript, and where to find resources.
+Build a simple CRUD React app with Typescripty goodness. Also contains a general discussion of React and Typescript, and where to find resources. The app gives a good example of how to communicate from component to component using `res.` The section does not cover much React, as the author points out repeatedly.
 
 ## Section 15: Node.js + Express & Typescript
 
-Begins with discussion of how Node does not understand Typescript, but simply treats whatever you pass to it as Javascript without caring about the file extension. Also gives quick introduction to [TSNode](https://typestrong.org/ts-node/) before moving on from it because constantly compiling TS on the server would likely be slow. Which brings us to a custom setup.
+Begins with discussion of how Node does not understand Typescript, but simply treats whatever you pass to it as Javascript without caring about the file extension. Also gives quick introduction to [TSNode](https://typestrong.org/ts-node/) before moving on from it because constantly compiling TS on the server would likely be slow. Which brings us to a custom setup using Node, Express, and BodyParser. From there we build an MVC CRUD app which can be tested in Postman. It follows a very parallel content to section 14, but this time with Express. Pretty cool! It concludes with a recommendation to check out [Nest.js](https://nestjs.com/), which provides "great Typescript support out-of-the-box."
+
+## Section 16: Course Roundup
+
+The author closes the course with a review of what we've done, a link to the Typescript.js and Next.js web pages, and a greate suggestion to [search for "typescript examples"](https://www.google.com/search?q=typescript+examples&oq=typescript+examples&aqs=chrome..69i57j0i512j0i22i30l8.5313j0j7&sourceid=chrome&ie=UTF-8)).
 
 # TODO:
 
