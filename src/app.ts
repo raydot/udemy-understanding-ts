@@ -15,7 +15,7 @@ const loader = new Loader({
 });
 
 type GoogleGeocodingResponse = {
-  results: { geometry: { location: { lat: Number; lng: Number } } }[];
+  results: { geometry: { location: { lat: number; lng: number } } }[];
   status: 'OK' | 'ZERO_RESULTS';
 };
 
@@ -38,8 +38,8 @@ function searchAddressHandler(event: Event) {
       }
       loader.load().then(() => {
         const coordinates = new google.maps.LatLng({
-          lat: Number(response.data.results[0].geometry.location.lat()),
-          lng: Number(response.data.results[0].geometry.location.lng),
+          lat: response.data.results[0].geometry.location.lat,
+          lng: response.data.results[0].geometry.location.lng,
         });
         console.log(coordinates.lat);
         //const coordinates = response.data.results[0].geometry.location;
